@@ -1,0 +1,64 @@
+.Tabla {
+    background-color: #0CABA8;
+    border-color: black;
+    border-radius: 3px;
+    margin: auto;
+    top: 45px;
+    position: relative;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.Título {
+    background-color: #133545;
+    padding: 8px;
+}
+#Nombre {
+    font-size: 35px;
+}
+.Profesión {
+    font-size: 24px;
+    font-weight: 300;
+}
+h2 {
+    color: rgba(55, 150, 245, 0.953);
+    border-style: dashed;
+    top: 15px;
+    position: relative;
+}
+div {
+    background-color: #026272;
+}
+.Resumen, .Experiencia, .Habilidades, .Contactos {
+    width: 645px;
+    height: 225px;
+    text-align: center;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px black;
+}
+ul {
+    position: relative;
+    top: 18px;
+    left: -10px;
+}
+.Resumen p {
+    position: relative;
+    top: 58px;
+}
+a img {
+    position: relative;
+    top: 40px;
+    width: 55px;
+    height: 55px;
+    margin: 5px 8px;
+    border-radius: 8px;
+    transition: box-shadow .5s;
+}
+a img:hover {
+    box-shadow: 1.7px 1.7px 4px black;
+}
+.Textarea {
+    margin-top: 4px;
+}

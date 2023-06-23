@@ -1,0 +1,16 @@
+body{
+    background-color: #453582;
+}
+header{
+    color: white;
+    text-shadow: 2px 3px 5px black;
+    background-color: #383838;
+    height: 75px;
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+}
+section {
+    background-color: #484848;
+}

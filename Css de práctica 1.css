@@ -1,0 +1,84 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+body {
+    background-color: #9AEBA3;
+}
+#contenedor {
+    width: 950px;
+    margin:auto;
+}
+.Título {
+    width: 950px;
+    height: 100px;
+    background-color: #012030;
+}
+.Título h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px #000;
+}
+.Navegación {
+    width: 950px;
+    height: 35px;
+    background-color: #13678A;
+    text-align: right;
+}
+.Navegación a:link {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Navegación a:visited {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Navegación a:hover {
+    text-shadow: 2px 2px 4px #000;
+}
+.Navegación ul li {
+    display: inline-block;
+    line-height: 35px;
+    padding: 4px 6px;
+}
+.Artículo {
+    width: 750px;
+    height: 450px;
+    margin-top: 10px;
+    background-color: white;
+    float: left;
+}
+.Aside {
+    width: 185px;
+    height: 400px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    float: left;
+    margin-left: 15px;
+}
+.Aside:nth-of-type(1) {
+    height: 32px;
+    background-color: #9AEBA3;
+}
+.Footer {
+    clear: both;
+    width: 950px;
+    height: 50px;
+    background-color: #012030;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    font-style: italic;
+}
+a {
+    cursor:pointer;
+}
+
